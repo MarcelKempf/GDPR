@@ -27,8 +27,8 @@ Include the data tags
 ```
   
 #### Placeholder
-If you have many pages with different plugins active don't forget to include a Placeholder for every plugin!
-Otherwise the user get the popup every single time when a new plugin is detected.
+If you have many pages with different plugins active don't forget to include a placeholder for every plugin!
+Otherwise the user get the popup every single time when a new plugin on the page is detected.
 
 ```
 <span
