@@ -7,7 +7,7 @@ GDPR, DSGVO Opt-In and Opt-Out
 |data-PPName|String|To distinguish the plugins and display the plugin name to the user|
 |data-PPSrc|Source|Source of the plugin to be loaded|
 |data-PPInfo|Url|Href to other source (intern or extern)|
-|data-PPAllowed|Boolean|Force loading before accepting (No Opt-In needed)|
+|data-PPAllowed|Boolean(optional)|Force loading before accepting (No Opt-In needed)|
 
 
 ## Usage
