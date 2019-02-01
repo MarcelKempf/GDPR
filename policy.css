@@ -1,0 +1,131 @@
+
+html {
+  text-align: center;
+  margin: 0px auto;
+  display: table;
+  font-family: 'Arial', sans-serif;
+}
+
+code {
+  text-align: left;
+}
+
+#privacyPolicyWindow {
+  width: 100vw;
+  min-width: 350px;
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(26, 27, 28, .92);
+  color: #fff
+}
+
+#privacyPolicyWindow a, #privacyPolicyWindow input, #privacyPolicyWindow p {
+  max-width: 1000px;
+  color: #fff
+}
+
+#privacyPolicyWindow #disclamer {
+  margin: 0 auto 1% auto;
+  padding-top: 25px;
+  text-align: center
+}
+
+#privacyPolicyWindow input {
+  margin: 5px 10px 20px 10px;
+  padding: 0 10px;
+  height: 3.5em;
+  border: 1px solid #2f262a;
+  background-color: #696969;
+  cursor: pointer
+}
+
+#privacyPolicyWindow input:nth-child(3) {
+  background-color: rgba(66, 220, 138, .82)
+}
+
+#openPrivacyPolicy {
+  padding: 10px;
+  margin: 10px;
+}
+
+.invinsible {
+  display: none
+}
+
+.settingsWindowItem {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 50%
+}
+
+.settingsWindowItem a {
+  float: right;
+  width: 33.3%;
+  text-align: right;
+  padding-right: 25px;
+  margin: auto 0
+}
+
+.settingsWindowItem p {
+  width: 33.3%
+}
+
+.settingsWindowItem .switch {
+  position: relative;
+  display: inline-block;
+  width: 35px;
+  height: 22px;
+  margin: auto 0
+}
+
+.settingsWindowItem .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0
+}
+
+.settingsWindowItem .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e41;
+  opacity: .8;
+  transition: .4s
+}
+
+.settingsWindowItem .slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 2px;
+  bottom: 2px;
+  background-color: #fff;
+  transition: .4s
+}
+
+.settingsWindowItem input:checked+.slider {
+  background-color: rgba(66, 220, 138, .9)
+}
+
+.settingsWindowItem input:checked+.slider:before {
+  -webkit-transform: translateX(13px);
+  transform: translateX(13px)
+}
+
+.settingsWindowItem .slider.round {
+  border-radius: 22px
+}
+
+.settingsWindowItem .slider.round:before {
+  border-radius: 50%
+}
+
+/*# sourceMappingURL=privacypolicy.min.css.map */
