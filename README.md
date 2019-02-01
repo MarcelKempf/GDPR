@@ -28,7 +28,7 @@ Include the data tags
   
 #### Placeholder
 If you have many pages with different plugins active don't forget to include a placeholder for every plugin!
-Otherwise the user get the popup every single time when a new plugin on the page is detected.
+Otherwise, the user will receive the popup every time when a new plugin is detected.
 
 ```
 <span
@@ -40,4 +40,4 @@ Otherwise the user get the popup every single time when a new plugin on the page
 
 
 ## Demo
-You can see the final plugin here: https://marcelkempf.github.io/GDPR/index.html
+You can see the final product here: https://marcelkempf.github.io/GDPR/index.html
